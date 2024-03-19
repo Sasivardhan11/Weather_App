@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color:cornsilk; */
+}
+
+#container {
+    max-width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+    background-image: url('../images/bg.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.card-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10px;
+}
+#icon{
+    color: white;
+    font-size: 40px;
+}
+#icon2{
+    color: white;
+    font-size: 40px;
+}
+#icon3{
+    color: white;
+    font-size: 40px;
+}
+h1 {
+    font-size: 30px;
+}
+#content{
+    color:honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
